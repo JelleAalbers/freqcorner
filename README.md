@@ -28,4 +28,4 @@ In more detail:
       * Fainly, the same confidence regions if all other parameters are held fixed (rather than profiled over). If the parameters are uncorrelated, or you only have two parameters, these are identical to the regular contours.
 
 
- This package uses [iminuit](https://github.com/scikit-hep/iminuit) to minimize the likelihood; in particular, the [minos](https://iminuit.readthedocs.io/en/stable/reference.html#iminuit.Minuit.minos) and[mncontour](https://iminuit.readthedocs.io/en/stable/reference.html#iminuit.Minuit.mncontour) methods are used to find confidence intervals/contours.
+ This package uses [iminuit](https://github.com/scikit-hep/iminuit) to minimize the likelihood; in particular, the [minos](https://iminuit.readthedocs.io/en/stable/reference.html#iminuit.Minuit.minos) and [mncontour](https://iminuit.readthedocs.io/en/stable/reference.html#iminuit.Minuit.mncontour) methods are used to find confidence intervals and contours.
