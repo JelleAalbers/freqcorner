@@ -327,8 +327,8 @@ def off_diag(
 
 def plot_corner(
     params,
-    off_diag,
-    diag=None,
+    off_diag=off_diag,
+    diag=diag,
     labels=None,
     scales=None,
     ranges=None,
